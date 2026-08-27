@@ -1,0 +1,1495 @@
+{
+  "k": 5,
+  "results": {
+    "threshold_rule_baseline": {
+      "folds": [
+        {
+          "accuracy": 0.38095238095238093,
+          "macro_f1": 0.2889576883384933,
+          "attack_like_recall": 0.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.46153846153846156,
+              "recall": 1.0,
+              "f1": 0.631578947368421,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.25,
+              "recall": 0.2222222222222222,
+              "f1": 0.23529411764705882,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 7,
+              "burst": 2,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.895170332097935,
+            "median": 0.9184229667642032,
+            "min": 0.844055428481369
+          },
+          "fold": 1,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_024",
+            "cw2_real_20260818_attack_like_025",
+            "cw2_real_20260818_burst_003",
+            "cw2_real_20260818_burst_019",
+            "cw2_real_20260818_burst_028",
+            "cw2_real_20260818_normal_001",
+            "cw2_real_20260818_normal_006"
+          ]
+        },
+        {
+          "accuracy": 0.38095238095238093,
+          "macro_f1": 0.2889576883384933,
+          "attack_like_recall": 0.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.46153846153846156,
+              "recall": 1.0,
+              "f1": 0.631578947368421,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.25,
+              "recall": 0.2222222222222222,
+              "f1": 0.23529411764705882,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 7,
+              "burst": 2,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.894370328153812,
+            "median": 0.9184229667642032,
+            "min": 0.8408702596860719
+          },
+          "fold": 2,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_014",
+            "cw2_real_20260818_attack_like_020",
+            "cw2_real_20260818_burst_020",
+            "cw2_real_20260818_burst_021",
+            "cw2_real_20260818_burst_023",
+            "cw2_real_20260818_normal_008",
+            "cw2_real_20260818_normal_030"
+          ]
+        },
+        {
+          "accuracy": 0.4444444444444444,
+          "macro_f1": 0.3452380952380952,
+          "attack_like_recall": 0.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.7499999999999999,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.25,
+              "recall": 0.3333333333333333,
+              "f1": 0.28571428571428575,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 4,
+              "burst": 2,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            }
+          },
+          "n": 18,
+          "confidence": {
+            "mean": 0.8926047298906598,
+            "median": 0.9184229667642032,
+            "min": 0.839796878612791
+          },
+          "fold": 3,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_011",
+            "cw2_real_20260818_attack_like_026",
+            "cw2_real_20260818_burst_004",
+            "cw2_real_20260818_burst_025",
+            "cw2_real_20260818_normal_019",
+            "cw2_real_20260818_normal_021"
+          ]
+        },
+        {
+          "accuracy": 0.26666666666666666,
+          "macro_f1": 0.2331002331002331,
+          "attack_like_recall": 0.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.375,
+              "recall": 1.0,
+              "f1": 0.5454545454545454,
+              "support": 3
+            },
+            "burst": {
+              "precision": 0.14285714285714285,
+              "recall": 0.16666666666666666,
+              "f1": 0.15384615384615383,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 5,
+              "burst": 1,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.8915742549301046,
+            "median": 0.9184229667642032,
+            "min": 0.8429995208898997
+          },
+          "fold": 4,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_005",
+            "cw2_real_20260818_attack_like_012",
+            "cw2_real_20260818_burst_015",
+            "cw2_real_20260818_burst_029",
+            "cw2_real_20260818_normal_002"
+          ]
+        },
+        {
+          "accuracy": 0.4,
+          "macro_f1": 0.35555555555555557,
+          "attack_like_recall": 0.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6666666666666666,
+              "support": 3
+            },
+            "burst": {
+              "precision": 0.3333333333333333,
+              "recall": 0.5,
+              "f1": 0.4,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 3,
+              "burst": 3,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.8800111319452377,
+            "median": 0.8644458568371648,
+            "min": 0.8419378025720423
+          },
+          "fold": 5,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_003",
+            "cw2_real_20260818_attack_like_013",
+            "cw2_real_20260818_burst_005",
+            "cw2_real_20260818_burst_012",
+            "cw2_real_20260818_normal_004"
+          ]
+        }
+      ],
+      "mean_macro_f1": 0.3023618521141741,
+      "std_macro_f1": 0.044327096434831126,
+      "mean_attack_like_recall": 0.0,
+      "std_attack_like_recall": 0.0
+    },
+    "custom_gaussian_nb": {
+      "folds": [
+        {
+          "accuracy": 0.9523809523809523,
+          "macro_f1": 0.9521531100478469,
+          "attack_like_recall": 0.8333333333333334,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.9,
+              "recall": 1.0,
+              "f1": 0.9473684210526316,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 1,
+              "attack_like": 5
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9999889671749176,
+            "median": 1.0,
+            "min": 0.999789025640701
+          },
+          "fold": 1,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_024",
+            "cw2_real_20260818_attack_like_025",
+            "cw2_real_20260818_burst_003",
+            "cw2_real_20260818_burst_019",
+            "cw2_real_20260818_burst_028",
+            "cw2_real_20260818_normal_001",
+            "cw2_real_20260818_normal_006"
+          ]
+        },
+        {
+          "accuracy": 0.9523809523809523,
+          "macro_f1": 0.9440559440559441,
+          "attack_like_recall": 0.8333333333333334,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.923076923076923,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 1,
+              "burst": 0,
+              "attack_like": 5
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9999999971228405,
+            "median": 1.0,
+            "min": 0.9999999643265601
+          },
+          "fold": 2,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_014",
+            "cw2_real_20260818_attack_like_020",
+            "cw2_real_20260818_burst_020",
+            "cw2_real_20260818_burst_021",
+            "cw2_real_20260818_burst_023",
+            "cw2_real_20260818_normal_008",
+            "cw2_real_20260818_normal_030"
+          ]
+        },
+        {
+          "accuracy": 0.9444444444444444,
+          "macro_f1": 0.9440559440559441,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.923076923076923,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 5,
+              "burst": 1,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 18,
+          "confidence": {
+            "mean": 0.9804469795684132,
+            "median": 1.0,
+            "min": 0.6489285303325457
+          },
+          "fold": 3,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_011",
+            "cw2_real_20260818_attack_like_026",
+            "cw2_real_20260818_burst_004",
+            "cw2_real_20260818_burst_025",
+            "cw2_real_20260818_normal_019",
+            "cw2_real_20260818_normal_021"
+          ]
+        },
+        {
+          "accuracy": 0.9333333333333333,
+          "macro_f1": 0.9220779220779219,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 1,
+              "burst": 5,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.9968619351489881,
+            "median": 0.9999999999999212,
+            "min": 0.9564268726035827
+          },
+          "fold": 4,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_005",
+            "cw2_real_20260818_attack_like_012",
+            "cw2_real_20260818_burst_015",
+            "cw2_real_20260818_burst_029",
+            "cw2_real_20260818_normal_002"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.9999920778667036,
+            "median": 1.0,
+            "min": 0.9998831393876683
+          },
+          "fold": 5,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_003",
+            "cw2_real_20260818_attack_like_013",
+            "cw2_real_20260818_burst_005",
+            "cw2_real_20260818_burst_012",
+            "cw2_real_20260818_normal_004"
+          ]
+        }
+      ],
+      "mean_macro_f1": 0.9524685840475314,
+      "std_macro_f1": 0.025785547830124687,
+      "mean_attack_like_recall": 0.9333333333333333,
+      "std_attack_like_recall": 0.08164965809277258
+    },
+    "logistic_regression": {
+      "folds": [
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9330508462362359,
+            "median": 0.9896174232540967,
+            "min": 0.6137250558111477
+          },
+          "fold": 1,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_024",
+            "cw2_real_20260818_attack_like_025",
+            "cw2_real_20260818_burst_003",
+            "cw2_real_20260818_burst_019",
+            "cw2_real_20260818_burst_028",
+            "cw2_real_20260818_normal_001",
+            "cw2_real_20260818_normal_006"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9498028891336263,
+            "median": 0.9605565862042923,
+            "min": 0.8696025351498871
+          },
+          "fold": 2,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_014",
+            "cw2_real_20260818_attack_like_020",
+            "cw2_real_20260818_burst_020",
+            "cw2_real_20260818_burst_021",
+            "cw2_real_20260818_burst_023",
+            "cw2_real_20260818_normal_008",
+            "cw2_real_20260818_normal_030"
+          ]
+        },
+        {
+          "accuracy": 0.9444444444444444,
+          "macro_f1": 0.9440559440559441,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.923076923076923,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 5,
+              "burst": 1,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 18,
+          "confidence": {
+            "mean": 0.9589524867676913,
+            "median": 0.9944788090787902,
+            "min": 0.7359156158671184
+          },
+          "fold": 3,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_011",
+            "cw2_real_20260818_attack_like_026",
+            "cw2_real_20260818_burst_004",
+            "cw2_real_20260818_burst_025",
+            "cw2_real_20260818_normal_019",
+            "cw2_real_20260818_normal_021"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.9177570215377747,
+            "median": 0.9642835082040826,
+            "min": 0.7512219105604727
+          },
+          "fold": 4,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_005",
+            "cw2_real_20260818_attack_like_012",
+            "cw2_real_20260818_burst_015",
+            "cw2_real_20260818_burst_029",
+            "cw2_real_20260818_normal_002"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.8679391119681291,
+            "median": 0.8670187939054022,
+            "min": 0.5897242020147478
+          },
+          "fold": 5,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_003",
+            "cw2_real_20260818_attack_like_013",
+            "cw2_real_20260818_burst_005",
+            "cw2_real_20260818_burst_012",
+            "cw2_real_20260818_normal_004"
+          ]
+        }
+      ],
+      "mean_macro_f1": 0.9888111888111888,
+      "std_macro_f1": 0.022377622377622374,
+      "mean_attack_like_recall": 1.0,
+      "std_attack_like_recall": 0.0
+    },
+    "decision_tree": {
+      "folds": [
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0
+          },
+          "fold": 1,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_024",
+            "cw2_real_20260818_attack_like_025",
+            "cw2_real_20260818_burst_003",
+            "cw2_real_20260818_burst_019",
+            "cw2_real_20260818_burst_028",
+            "cw2_real_20260818_normal_001",
+            "cw2_real_20260818_normal_006"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0
+          },
+          "fold": 2,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_014",
+            "cw2_real_20260818_attack_like_020",
+            "cw2_real_20260818_burst_020",
+            "cw2_real_20260818_burst_021",
+            "cw2_real_20260818_burst_023",
+            "cw2_real_20260818_normal_008",
+            "cw2_real_20260818_normal_030"
+          ]
+        },
+        {
+          "accuracy": 0.8888888888888888,
+          "macro_f1": 0.8857142857142857,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 4,
+              "burst": 2,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 18,
+          "confidence": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0
+          },
+          "fold": 3,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_011",
+            "cw2_real_20260818_attack_like_026",
+            "cw2_real_20260818_burst_004",
+            "cw2_real_20260818_burst_025",
+            "cw2_real_20260818_normal_019",
+            "cw2_real_20260818_normal_021"
+          ]
+        },
+        {
+          "accuracy": 0.9333333333333333,
+          "macro_f1": 0.9220779220779219,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 1,
+              "burst": 5,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0
+          },
+          "fold": 4,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_005",
+            "cw2_real_20260818_attack_like_012",
+            "cw2_real_20260818_burst_015",
+            "cw2_real_20260818_burst_029",
+            "cw2_real_20260818_normal_002"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0
+          },
+          "fold": 5,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_003",
+            "cw2_real_20260818_attack_like_013",
+            "cw2_real_20260818_burst_005",
+            "cw2_real_20260818_burst_012",
+            "cw2_real_20260818_normal_004"
+          ]
+        }
+      ],
+      "mean_macro_f1": 0.9615584415584415,
+      "std_macro_f1": 0.04846505471040253,
+      "mean_attack_like_recall": 1.0,
+      "std_attack_like_recall": 0.0
+    },
+    "random_forest": {
+      "folds": [
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9781802721088435,
+            "median": 0.9925595238095237,
+            "min": 0.8
+          },
+          "fold": 1,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_024",
+            "cw2_real_20260818_attack_like_025",
+            "cw2_real_20260818_burst_003",
+            "cw2_real_20260818_burst_019",
+            "cw2_real_20260818_burst_028",
+            "cw2_real_20260818_normal_001",
+            "cw2_real_20260818_normal_006"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 9
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 6,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 9,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 21,
+          "confidence": {
+            "mean": 0.9629761904761905,
+            "median": 0.9902083333333334,
+            "min": 0.7818750000000001
+          },
+          "fold": 2,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_014",
+            "cw2_real_20260818_attack_like_020",
+            "cw2_real_20260818_burst_020",
+            "cw2_real_20260818_burst_021",
+            "cw2_real_20260818_burst_023",
+            "cw2_real_20260818_normal_008",
+            "cw2_real_20260818_normal_030"
+          ]
+        },
+        {
+          "accuracy": 0.8888888888888888,
+          "macro_f1": 0.8857142857142857,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "support": 6
+            },
+            "burst": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 4,
+              "burst": 2,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 18,
+          "confidence": {
+            "mean": 0.9460011574074074,
+            "median": 0.9890625,
+            "min": 0.659375
+          },
+          "fold": 3,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_011",
+            "cw2_real_20260818_attack_like_026",
+            "cw2_real_20260818_burst_004",
+            "cw2_real_20260818_burst_025",
+            "cw2_real_20260818_normal_019",
+            "cw2_real_20260818_normal_021"
+          ]
+        },
+        {
+          "accuracy": 0.9333333333333333,
+          "macro_f1": 0.9220779220779219,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.8571428571428571,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 1,
+              "burst": 5,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.9347893518518519,
+            "median": 0.9911111111111109,
+            "min": 0.5085069444444444
+          },
+          "fold": 4,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_005",
+            "cw2_real_20260818_attack_like_012",
+            "cw2_real_20260818_burst_015",
+            "cw2_real_20260818_burst_029",
+            "cw2_real_20260818_normal_002"
+          ]
+        },
+        {
+          "accuracy": 1.0,
+          "macro_f1": 1.0,
+          "attack_like_recall": 1.0,
+          "burst_false_alarm_rate": 0.0,
+          "per_class": {
+            "normal": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 3
+            },
+            "burst": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            },
+            "attack_like": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "support": 6
+            }
+          },
+          "confusion_matrix": {
+            "normal": {
+              "normal": 3,
+              "burst": 0,
+              "attack_like": 0
+            },
+            "burst": {
+              "normal": 0,
+              "burst": 6,
+              "attack_like": 0
+            },
+            "attack_like": {
+              "normal": 0,
+              "burst": 0,
+              "attack_like": 6
+            }
+          },
+          "n": 15,
+          "confidence": {
+            "mean": 0.904800925925926,
+            "median": 0.9069444444444443,
+            "min": 0.639375
+          },
+          "fold": 5,
+          "test_groups": [
+            "cw2_real_20260818_attack_like_003",
+            "cw2_real_20260818_attack_like_013",
+            "cw2_real_20260818_burst_005",
+            "cw2_real_20260818_burst_012",
+            "cw2_real_20260818_normal_004"
+          ]
+        }
+      ],
+      "mean_macro_f1": 0.9615584415584415,
+      "std_macro_f1": 0.04846505471040253,
+      "mean_attack_like_recall": 1.0,
+      "std_attack_like_recall": 0.0
+    }
+  }
+}

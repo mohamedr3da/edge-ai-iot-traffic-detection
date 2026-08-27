@@ -1,0 +1,6 @@
+pyserial>=3.5
+numpy>=2.5
+pandas>=3.0
+matplotlib>=3.11
+scikit-learn>=1.9
+psutil>=7.2

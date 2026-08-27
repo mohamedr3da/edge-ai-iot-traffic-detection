@@ -1,0 +1,107 @@
+{
+  "model": "tuned_rate_only_baseline",
+  "feature_used": "messages_per_sec",
+  "selection_data": "reported validation-selected thresholds",
+  "normal_max_messages_per_sec": 5.75,
+  "burst_max_messages_per_sec": 9.65,
+  "rule": "normal if messages_per_sec < normal_max; burst if messages_per_sec < burst_max; otherwise attack_like",
+  "train_window_count": 72,
+  "validation": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "attack_like_recall": 1.0,
+    "burst_false_alarm_rate": 0.0,
+    "per_class": {
+      "normal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "burst": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "attack_like": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "normal": {
+        "normal": 3,
+        "burst": 0,
+        "attack_like": 0
+      },
+      "burst": {
+        "normal": 0,
+        "burst": 3,
+        "attack_like": 0
+      },
+      "attack_like": {
+        "normal": 0,
+        "burst": 0,
+        "attack_like": 3
+      }
+    },
+    "prediction_counts": {
+      "attack_like": 3,
+      "burst": 3,
+      "normal": 3
+    },
+    "n": 9
+  },
+  "test": {
+    "accuracy": 0.7777777777777778,
+    "macro_f1": 0.75,
+    "attack_like_recall": 1.0,
+    "burst_false_alarm_rate": 0.0,
+    "per_class": {
+      "normal": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "support": 3
+      },
+      "burst": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999,
+        "support": 3
+      },
+      "attack_like": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "normal": {
+        "normal": 1,
+        "burst": 2,
+        "attack_like": 0
+      },
+      "burst": {
+        "normal": 0,
+        "burst": 3,
+        "attack_like": 0
+      },
+      "attack_like": {
+        "normal": 0,
+        "burst": 0,
+        "attack_like": 3
+      }
+    },
+    "prediction_counts": {
+      "attack_like": 3,
+      "burst": 5,
+      "normal": 1
+    },
+    "n": 9
+  }
+}

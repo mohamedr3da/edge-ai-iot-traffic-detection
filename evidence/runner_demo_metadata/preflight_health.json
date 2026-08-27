@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "model_ready": true,
+  "log_path": "/home/reda/edge_ai_dos_testbed/pi_edge_ai/logs/events_20260818_115558.csv",
+  "window_seconds": 10.0
+}

@@ -1,0 +1,11 @@
+model=Raspberry Pi 5 Model B Rev 1.1
+Linux edgepi 6.18.39+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.39-1+rpt1 (2026-07-29) aarch64 GNU/Linux
+Python 3.13.5
+               total        used        free      shared  buff/cache   available
+Mem:           2.0Gi       203Mi       1.6Gi       9.3Mi       269Mi       1.8Gi
+Swap:          2.0Gi          0B       2.0Gi
+wifi_ip=192.168.1.187
+throttled=0x0
+temp=50.5'C
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G  4.1G   23G  16% /

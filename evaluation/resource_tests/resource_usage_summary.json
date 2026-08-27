@@ -1,0 +1,41 @@
+{
+  "resource_csv": "evaluation/resource_tests/resource_usage_full_20260818.csv",
+  "all_samples": {
+    "samples": 1577,
+    "duration_s": 1578.869068145752,
+    "process_cpu_mean_percent_one_core": 0.7138509828788839,
+    "process_cpu_median_percent_one_core": 0.998,
+    "process_cpu_p95_percent_one_core": 1.996,
+    "process_cpu_max_percent_one_core": 2.994,
+    "system_cpu_mean_percent": 0.2378161065313887,
+    "system_cpu_p95_percent": 0.748,
+    "rss_mean_mb": 27.325489457831324,
+    "rss_p95_mb": 28.671875,
+    "rss_max_mb": 28.703125,
+    "messages_per_sec_mean": 4.730818008877616,
+    "messages_per_sec_p95": 13.5,
+    "messages_per_sec_max": 15.0
+  },
+  "active_collection_samples": {
+    "samples": 1465,
+    "duration_s": 1466.7062139511108,
+    "process_cpu_mean_percent_one_core": 0.7629706484641637,
+    "process_cpu_median_percent_one_core": 0.998,
+    "process_cpu_p95_percent_one_core": 1.996,
+    "process_cpu_max_percent_one_core": 2.994,
+    "system_cpu_mean_percent": 0.2515788395904437,
+    "system_cpu_p95_percent": 0.748,
+    "rss_mean_mb": 27.707764505119453,
+    "rss_p95_mb": 28.671875,
+    "rss_max_mb": 28.703125,
+    "messages_per_sec_mean": 5.092491467576791,
+    "messages_per_sec_p95": 13.5,
+    "messages_per_sec_max": 15.0
+  },
+  "prediction_label_counts": {
+    "waiting": 514,
+    "attack_like": 421,
+    "normal": 339,
+    "burst": 191
+  }
+}

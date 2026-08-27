@@ -1,0 +1,2 @@
+scenario_id,window_index,actual,predicted,confidence,correct,messages_per_sec,message_count,active_clients,mean_interarrival_ms,std_interarrival_ms,interarrival_cv,bytes_per_sec,sensor_accel_mag_mean,sensor_accel_mag_std,sensor_gyro_mag_mean
+cw2_real_20260818_normal_021,1,normal,burst,0.962709837570236,False,5.5,55.0,1.0,180.36264401895028,80.12889841020923,0.4442654899303332,7623.7,0.9631998121365327,0.0035888364995905904,1.2460807357649122

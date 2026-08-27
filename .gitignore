@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.DS_Store
+Thumbs.db
+
+# Local runtime output
+pi_edge_ai/logs/
+run_metadata/
+reports/
+reproduced_evaluation_10s/
+
+# Large coursework exports kept outside this code repo
+*.mp4
+*.pptx
+*.pdf
+*.zip

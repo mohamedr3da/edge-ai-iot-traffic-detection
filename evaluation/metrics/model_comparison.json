@@ -1,0 +1,553 @@
+{
+  "threshold_rule_baseline": {
+    "validation": {
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2222222222222222,
+      "attack_like_recall": 0.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.902171884676346,
+        "median": 0.9184229667642032,
+        "min": 0.8690650715096976
+      }
+    },
+    "test": {
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.2222222222222222,
+      "attack_like_recall": 0.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.8977079581805858,
+        "median": 0.9184229667642032,
+        "min": 0.855785444044646
+      }
+    },
+    "model_size_bytes": 0,
+    "latency": {
+      "mean_ms": 0.053672649723012,
+      "median_ms": 0.05269999383017421,
+      "p95_ms": 0.057800032664090395,
+      "max_ms": 0.185999961104244,
+      "cpu_seconds": 0.109375,
+      "peak_python_alloc_kb": 700.576171875,
+      "repeated_predictions": 2000
+    }
+  },
+  "custom_gaussian_nb": {
+    "validation": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "burst": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.9999991610059614,
+        "median": 1.0,
+        "min": 0.9999926052302929
+      }
+    },
+    "test": {
+      "accuracy": 0.8888888888888888,
+      "macro_f1": 0.8857142857142857,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 2,
+          "burst": 1,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.9928981287978812,
+        "median": 0.9999999999992979,
+        "min": 0.962709837570236
+      }
+    },
+    "model_size_bytes": 2329,
+    "latency": {
+      "mean_ms": 0.06717190015478991,
+      "median_ms": 0.06530003156512976,
+      "p95_ms": 0.07419998291879892,
+      "max_ms": 0.20220002625137568,
+      "cpu_seconds": 0.125,
+      "peak_python_alloc_kb": 700.333984375,
+      "repeated_predictions": 2000
+    }
+  },
+  "logistic_regression": {
+    "validation": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "burst": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.9029605081170468,
+        "median": 0.9054979550302094,
+        "min": 0.7774901712269122
+      }
+    },
+    "test": {
+      "accuracy": 0.8888888888888888,
+      "macro_f1": 0.8857142857142857,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 2,
+          "burst": 1,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.9167898503791294,
+        "median": 0.9539666307487431,
+        "min": 0.7823802862082062
+      }
+    },
+    "model_size_bytes": 1973,
+    "latency": {
+      "mean_ms": 0.9960568005335517,
+      "median_ms": 0.9897999698296189,
+      "p95_ms": 1.0446000378578901,
+      "max_ms": 1.5062999445945024,
+      "cpu_seconds": 1.953125,
+      "peak_python_alloc_kb": 579.1416015625,
+      "repeated_predictions": 2000
+    }
+  },
+  "decision_tree": {
+    "validation": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "burst": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0
+      }
+    },
+    "test": {
+      "accuracy": 0.7777777777777778,
+      "macro_f1": 0.75,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 1,
+          "burst": 2,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0
+      }
+    },
+    "model_size_bytes": 1995,
+    "latency": {
+      "mean_ms": 0.5715395002334844,
+      "median_ms": 0.5681999609805644,
+      "p95_ms": 0.5997999687679112,
+      "max_ms": 1.0328000062145293,
+      "cpu_seconds": 1.125,
+      "peak_python_alloc_kb": 558.31640625,
+      "repeated_predictions": 2000
+    }
+  },
+  "random_forest": {
+    "validation": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "burst": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 3,
+          "burst": 0,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.9313888888888889,
+        "median": 0.9714583333333333,
+        "min": 0.755625
+      }
+    },
+    "test": {
+      "accuracy": 0.7777777777777778,
+      "macro_f1": 0.75,
+      "attack_like_recall": 1.0,
+      "burst_false_alarm_rate": 0.0,
+      "per_class": {
+        "normal": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 3
+        },
+        "burst": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999,
+          "support": 3
+        },
+        "attack_like": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "normal": {
+          "normal": 1,
+          "burst": 2,
+          "attack_like": 0
+        },
+        "burst": {
+          "normal": 0,
+          "burst": 3,
+          "attack_like": 0
+        },
+        "attack_like": {
+          "normal": 0,
+          "burst": 0,
+          "attack_like": 3
+        }
+      },
+      "n": 9,
+      "confidence": {
+        "mean": 0.8600462962962963,
+        "median": 0.9839583333333334,
+        "min": 0.5195833333333333
+      }
+    },
+    "model_size_bytes": 68588,
+    "latency": {
+      "mean_ms": 6.412679949513404,
+      "median_ms": 6.38795000850223,
+      "p95_ms": 6.646899972110987,
+      "max_ms": 8.041799999773502,
+      "cpu_seconds": 12.765625,
+      "peak_python_alloc_kb": 15981.9921875,
+      "repeated_predictions": 2000
+    }
+  },
+  "selected_model": "custom_gaussian_nb"
+}

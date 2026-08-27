@@ -1,0 +1,16 @@
+{
+  "selected": "custom_gaussian_nb",
+  "selection_reason": "Selected using the validation split. When candidate models are within 0.02 macro-F1, prefer the simplest interpretable deployment; Gaussian NB was selected before final test evaluation.",
+  "feature_names": [
+    "messages_per_sec",
+    "message_count",
+    "active_clients",
+    "mean_interarrival_ms",
+    "std_interarrival_ms",
+    "interarrival_cv",
+    "bytes_per_sec",
+    "sensor_accel_mag_mean",
+    "sensor_accel_mag_std",
+    "sensor_gyro_mag_mean"
+  ]
+}

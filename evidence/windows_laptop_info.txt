@@ -1,0 +1,24 @@
+Python 3.14.2
+
+Python packages:
+matplotlib==3.11.1
+numpy==2.5.2
+pandas==3.0.5
+psutil==7.2.2
+pyserial==3.5
+scikit-learn==1.9.0
+
+Serial:
+
+DeviceID    : COM4
+Name        : USB Serial Device (COM4)
+PNPDeviceID : USB\VID_2341&PID_805A&MI_00\7&35C3B6CD&0&0000
+
+
+Network:
+
+InterfaceAlias : WiFi
+IPAddress      : 192.168.1.207
+PrefixLength   : 24
+
+

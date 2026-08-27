@@ -1,0 +1,3 @@
+# The Pi server and starter ML classifier use only the Python standard library.
+# No packages are required for the core demo.
+

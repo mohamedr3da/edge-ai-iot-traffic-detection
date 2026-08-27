@@ -1,0 +1,31 @@
+Experiment output: evidence/runner_demo_metadata
+Topology: Arduino USB serial -> Windows laptop -> local Wi-Fi/router -> Raspberry Pi 5
+Pi health: {'ok': True, 'model_ready': True, 'log_path': '/home/reda/edge_ai_dos_testbed/pi_edge_ai/logs/events_20260818_115558.csv', 'window_seconds': 10.0}
+Planned runs: 3
+
+Run 1/3
+Movement note: Arduino left still on the desk.
+
+[evidence_dashboard_1787050835637_attack_like_001] attack_like for 20.0s
+  profile=sustained_pressure base=20.82/s peak=20.82/s jitter=0.11
+  Arduino movement: left still on the desk
+  finished sent=272 failed=0 actual=13.58/s excluded=False
+
+Run 2/3
+Movement note: Arduino left still on the desk.
+
+[evidence_dashboard_1787050835637_burst_001] burst for 20.0s
+  profile=repeated_burst base=5.23/s peak=12.18/s jitter=0.17
+  Arduino movement: left still on the desk
+  finished sent=159 failed=0 actual=7.92/s excluded=False
+
+Run 3/3
+Movement note: Arduino left still on the desk.
+
+[evidence_dashboard_1787050835637_normal_001] normal for 20.0s
+  profile=steady_low_jitter base=4.99/s peak=4.99/s jitter=0.06
+  Arduino movement: left still on the desk
+  finished sent=86 failed=0 actual=4.23/s excluded=False
+
+Metadata written under evidence/runner_demo_metadata
+Pi log path: /home/reda/edge_ai_dos_testbed/pi_edge_ai/logs/events_20260818_115558.csv

@@ -1,0 +1,34 @@
+{
+  "device": "Raspberry Pi 5 Model B Rev 1.1",
+  "python_runtime": "Python 3.13.5 on Raspberry Pi OS",
+  "raw_log": "logs/events_20260818_111841.csv",
+  "model": "models/traffic_classifier_10s_real.json",
+  "window_seconds": 10.0,
+  "event_count": 7478,
+  "window_count": 90,
+  "repeats": 3000,
+  "feature_extraction": {
+    "mean_ms": 0.6878780566662499,
+    "median_ms": 0.6868330001452705,
+    "p95_ms": 0.6929819996912556,
+    "max_ms": 0.7865360003052047,
+    "samples": 3000
+  },
+  "classifier_only": {
+    "mean_ms": 0.015751519001544995,
+    "median_ms": 0.015721999716333812,
+    "p95_ms": 0.015797000287420815,
+    "max_ms": 0.061110999922675546,
+    "samples": 3000
+  },
+  "feature_plus_classifier": {
+    "mean_ms": 0.7084808046729449,
+    "median_ms": 0.7071660002111457,
+    "p95_ms": 0.7143879997784097,
+    "max_ms": 0.7776669999657315,
+    "samples": 3000
+  },
+  "dashboard_refresh_seconds": 0.7,
+  "expected_visible_detection_delay_seconds": 10.7,
+  "note": "Timing uses time.perf_counter around local Pi Python calls. Classifier-only excludes feature extraction and dashboard refresh."
+}

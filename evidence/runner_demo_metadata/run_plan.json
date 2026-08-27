@@ -1,0 +1,53 @@
+[
+  {
+    "experiment_id": "evidence_dashboard_1787050835637",
+    "label": "attack_like",
+    "run_index": 1,
+    "scenario_id": "evidence_dashboard_1787050835637_attack_like_001",
+    "duration_s": 20.0,
+    "profile": "sustained_pressure",
+    "base_rate": 20.81925458960216,
+    "peak_rate": 20.81925458960216,
+    "jitter_fraction": 0.11297354086651307,
+    "pause_probability": 0.004582970736489875,
+    "max_pause_s": 0.16381564025835654,
+    "burst_period_s": 0.0,
+    "burst_length_s": 0.0,
+    "note": "Safe local attack-like pressure: sustained repetitive requests to the Pi only.",
+    "movement_instruction": "leave the Arduino completely still on the desk"
+  },
+  {
+    "experiment_id": "evidence_dashboard_1787050835637",
+    "label": "burst",
+    "run_index": 1,
+    "scenario_id": "evidence_dashboard_1787050835637_burst_001",
+    "duration_s": 20.0,
+    "profile": "repeated_burst",
+    "base_rate": 5.234997572093732,
+    "peak_rate": 12.182324160569044,
+    "jitter_fraction": 0.17215266357892262,
+    "pause_probability": 0.0035062713165453663,
+    "max_pause_s": 0.2451755812046325,
+    "burst_period_s": 8.03147248200868,
+    "burst_length_s": 5.115400691944413,
+    "note": "Legitimate temporary spike: high rate appears in short bursts, not sustained pressure.",
+    "movement_instruction": "leave the Arduino completely still on the desk"
+  },
+  {
+    "experiment_id": "evidence_dashboard_1787050835637",
+    "label": "normal",
+    "run_index": 1,
+    "scenario_id": "evidence_dashboard_1787050835637_normal_001",
+    "duration_s": 20.0,
+    "profile": "steady_low_jitter",
+    "base_rate": 4.987400530050554,
+    "peak_rate": 4.987400530050554,
+    "jitter_fraction": 0.06218872797232668,
+    "pause_probability": 0.015993751878422738,
+    "max_pause_s": 0.365443277959696,
+    "burst_period_s": 0.0,
+    "burst_length_s": 0.0,
+    "note": "Normal client traffic: steady telemetry with occasional pauses.",
+    "movement_instruction": "leave the Arduino completely still on the desk"
+  }
+]
